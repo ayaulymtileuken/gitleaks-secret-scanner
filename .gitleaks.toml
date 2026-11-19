@@ -10,7 +10,7 @@ path = '''(^|/)config\.py$'''
 regex = '''(?m)^AWS_ACCESS_KEY_ID\s*=\s*"(AKIAIOSFODNN7EXAMPLE)"'''
 secretGroup = 1
 [[rules]]
-id = "classroom-demo-code"
+id = "ayaulym-custom-code"
 description = "Classroom demo code"
-path = '''(^|/)config\.py$'''
-regex = '''\bLAB-DEMO-[0-9]{6}\b'''
+path = '''(^|/)config\\.py$'''
+regex = '''\bAYA-KEY-[0-9]{8}\b'''
