@@ -12,5 +12,5 @@ secretGroup = 1
 [[rules]]
 id = "ayaulym-custom-code"
 description = "Classroom demo code"
-path = '''(^|/)config\\.py$'''
+path = '''(^|/)config\.py$'''
 regex = '''\bAYA-KEY-[0-9]{8}\b'''
